@@ -1,6 +1,6 @@
 {
   "name": "@kkyjh/react-native-drag-sort",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Drag and drop sort control for react-native",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "react-native",
     "list"
   ],
-  "author": "mochixuan",
+  "author": "kkyjh",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {},
