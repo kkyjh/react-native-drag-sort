@@ -46,6 +46,8 @@ isRequired if there is a \* in the name field
 | ------------------------ | --------- | ----------------------------------------------------------------------- |
 | **dataSource** \*        | array     |
 | **parentWidth**          | number    | parent width                                                            |
+| **parentMarginLeft**     | number    | parent margin left                                                      |
+| **parentMarginRight**    | number    | parent margin right                                                     |
 | **childrenHeight** \*    | number    | Each item height                                                        |
 | **childrenWidth** \*     | number    | Each item width                                                         |
 | **marginChildrenTop**    | number    | So the item's outermost view adds margin, you can only use this method. |
@@ -58,6 +60,7 @@ isRequired if there is a \* in the name field
 | **onDragEnd**            | func      |
 | **onDataChange**         | func      | This method is called every time the data changes.                      |
 | **renderItem** \*        | func      | render item view                                                        |
+| **renderSubItem**        | func      | render sub item view                                                    |
 | **fixedItems**           | array     | no remove                                                               |
 | **keyExtractor**         | func      | (item,index) => key                                                     |
 | **delayLongPress**       | number    |

@@ -21,7 +21,7 @@ interface IProps {
   onDragEnd?: (fromIndex: number, toIndex: number) => void;
   onDataChange?: (data: any[]) => void;
   renderItem: (item: any, index: number) => React.ReactElement<any>;
-  renderSubItem: (item: any, index: number) => React.ReactElement<any>;
+  renderSubItem?: (item: any, index: number) => React.ReactElement<any>;
   scaleStatus?: "scale" | "scaleX" | "scaleY";
   fixedItems?: number[];
   keyExtractor?: (item: any, index: number) => any;
