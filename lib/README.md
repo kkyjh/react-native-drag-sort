@@ -46,6 +46,8 @@ isRequired if there is a \* in the name field
 | ------------------------ | --------- | ----------------------------------------------------------------------- |
 | **dataSource** \*        | array     |
 | **parentWidth**          | number    | parent width                                                            |
+| **parentMarginTop**      | number    | parent margin Top                                                       |
+| **parentMarginBottom**   | number    | parent margin Bottom                                                    |
 | **parentMarginLeft**     | number    | parent margin left                                                      |
 | **parentMarginRight**    | number    | parent margin right                                                     |
 | **childrenHeight** \*    | number    | Each item height                                                        |

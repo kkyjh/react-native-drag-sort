@@ -4,6 +4,8 @@ import { NativeSyntheticEvent, NativeScrollEvent } from "react-native";
 interface IProps {
   dataSource: any[];
   parentWidth: number;
+  parentMarginTop?: number;
+  parentMarginBottom?: number;
   parentMarginLeft?: number;
   parentMarginRight?: number;
   childrenHeight: number;
